@@ -1,0 +1,21 @@
+[package]
+name = "mini_paste"
+version = "0.1.10"
+authors = ["Daniel Henry-Mantilla <daniel.henry.mantilla@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.proc_macro]
+package = "mini_paste-proc_macro"
+path = "src/proc_macro"
+version = "0.1.10"
+
+[features]
+nightly = []
+
+[package.metadata.docs.rs]
+all-features = true
+
+[workspace]
+members = ["src/proc_macro"]
