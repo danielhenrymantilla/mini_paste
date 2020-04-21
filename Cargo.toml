@@ -9,7 +9,7 @@ documentation = "https://docs.rs/mini_paste"
 homepage = "https://crates.io/crates/mini_paste"
 repository = "https://github.com/danielhenrymantilla/mini_paste"
 
-license = "zlib"
+license = "Zlib"
 
 [dependencies.proc_macro]
 package = "mini_paste-proc_macro"

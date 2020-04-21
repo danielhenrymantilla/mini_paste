@@ -13,6 +13,6 @@ documentation = "https://docs.rs/mini_paste"
 homepage = "https://docs.rs/mini_paste"
 repository = "https://github.com/danielhenrymantilla/mini_paste"
 
-license = "zlib"
+license = "Zlib"
 
 [dependencies]
