@@ -4,10 +4,10 @@
     doc(include = "../README.md"),
 )]
 
-extern crate proc_macro;
+extern crate mini_paste_proc_macro;
 
 /** Not part of the public API **/ #[doc(hidden)]
-pub use ::proc_macro::{
+pub use ::mini_paste_proc_macro::{
     item as __item__,
     __expr_hack__,
 };
