@@ -11,8 +11,7 @@ repository = "https://github.com/danielhenrymantilla/mini_paste"
 
 license = "Zlib"
 
-[dependencies.proc_macro]
-package = "mini_paste-proc_macro"
+[dependencies.mini_paste-proc_macro]
 path = "src/proc_macro"
 version = "0.1.10"
 
